@@ -4,7 +4,7 @@ struct node_ind{ public uint id1; public uint id2; public uint id3; }
 private void getCoords()
 {
 BinaryReader br = new BinaryReader(new FileStream("D:/CST/Result/e-field (f=1;z=9000)_ffs1(1,0).slim", FileMode.Open));           
-char[] header = br.ReadChars(266); // 266 is the total number of chars from the "SLIM" word to the "end" word in a "e-field (f=1;z=9000)_ffs1(1,0).slim" file.
+char[] header = br.ReadChars(266); // 266 is the total number of chars from the "SLIM" word to the "end" word in the "e-field (f=1;z=9000)_ffs1(1,0).slim" file.
 uint node = 3721; // total number of nodes from the header of a *.slim file.
 uint triangle = 7200; // total number of triangles from the header of a *.slim file.
 int[] node_id = new int[node];
