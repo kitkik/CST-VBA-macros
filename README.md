@@ -1,4 +1,4 @@
-# CST VBA macros
+# CST Microwave Studio VBA macros
 Various useful VB code snippets for CST Microwave studio.
 
 The repository contains various macros on VB, which are useful for CST Microwave studio. Below is a list of macros.
